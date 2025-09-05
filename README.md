@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 **bhakti-thakur/bhakti-thakur** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -44,4 +42,4 @@ Here are some ideas to get you started:
 - 🧩 **Power App** – Canvas app for internal requests (offline cache, galleries)
 
 ## Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=<your-username>&show_icons=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=<bhakti-thakur>&show_icons=true)
