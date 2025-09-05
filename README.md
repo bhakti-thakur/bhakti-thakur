@@ -42,4 +42,4 @@ Here are some ideas to get you started:
 - 🧩 **Power App** – Canvas app for internal requests (offline cache, galleries)
 
 ## Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=<bhakti-thakur>&show_icons=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=bhakti-thakur&show_icons=true)
