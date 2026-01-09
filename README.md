@@ -1,153 +1,174 @@
-<div align="center">
+<div align="center" style="font-family:-apple-system,Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:var(--text-color,#1a1a1a);padding:24px;max-width:900px;margin:auto;">
+  <style>
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #0d1117;
+        --text-color: #e6edf3;
+        --card-bg: #161b22;
+        --accent: #58a6ff;
+      }
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-color: #ffffff;
+        --text-color: #1a1a1a;
+        --card-bg: #f6f8fa;
+        --accent: #0969da;
+      }
+    }
 
-  <!-- HERO -->
-  <h1>Hi, I’m Bhakti 👋</h1>
-  <p>
-    <strong>Power Platform Developer</strong> · 
-    <strong>Dynamics 365 CRM Developer</strong>
-  </p>
+    div[align="center"] {
+      background: var(--bg-color);
+      color: var(--text-color);
+    }
 
-  <p>
-    Building scalable low-code systems, CRM workflows, and data-driven products.
-  </p>
+    h1, h2, h3 {
+      font-weight: 600;
+      margin-bottom: 0.4em;
+    }
 
-  <br/>
+    h1 { font-size: 1.9em; }
+    h2 { font-size: 1.3em; border-bottom: 1px solid var(--accent); display:inline-block; padding-bottom:3px; margin-top:1.8em;}
+    p { margin: 0.4em 0; }
 
-  <!-- QUICK LINKS -->
-  <a href="#projects">Projects</a> •
-  <a href="#tech">Tech Stack</a> •
-  <a href="#contact">Contact</a>
+    .intro { font-size: 1.05em; color: var(--text-color); margin-bottom: 1.5em; }
 
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      background: var(--card-bg);
+      border: 1px solid rgba(100,100,100,0.2);
+      border-radius: 9999px;
+      padding: 6px 12px;
+      margin: 4px;
+      font-size: 0.85em;
+      transition: transform 0.2s ease-out;
+    }
+
+    .badge img {
+      width: 16px;
+      height: 16px;
+      margin-right: 6px;
+    }
+
+    .badge:hover {
+      transform: scale(1.08);
+    }
+
+    .project-card {
+      background: var(--card-bg);
+      border-radius: 10px;
+      padding: 16px;
+      margin: 14px 0;
+      text-align: left;
+      transition: transform 0.25s cubic-bezier(0.25, 1.25, 0.5, 1);
+      border: 1px solid rgba(100,100,100,0.2);
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .project-card a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(120,120,120,0.3);
+    }
+
+    .footer-icons a {
+      margin: 0 10px;
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+
+    .footer-icons a:hover {
+      transform: scale(1.15);
+    }
+
+    .footer-icons img {
+      width: 22px;
+      height: 22px;
+      opacity: 0.85;
+    }
+
+  </style>
+
+  <h1>Bhakti</h1>
+  <p class="intro"><strong>Power Platform Developer & Dynamics 365 CRM Developer</strong><br>
+  Exploring Data Science, Machine Learning, and Full Stack Development.<br>
+  Turning ideas into intelligent, automated experiences.</p>
+
+  <h2>About Me</h2>
+  <p>I work at the intersection of low-code automation and full-code development.</p>
+  <p>Experienced in Dynamics 365, Power Platform, and CRM workflows.</p>
+  <p>Interested in how data, design, and automation can simplify human decisions.</p>
+  <p>Currently building <strong>SynthData.ai</strong> for my BE project.</p>
+  <p>Always learning and exploring new technologies.</p>
+
+  <h2>Tech Stack</h2>
+  <div>
+    <div class="badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>Python</div>
+    <div class="badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>Java</div>
+    <div class="badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>React</div>
+    <div class="badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/>Next.js</div>
+    <div class="badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>Node.js</div>
+    <div class="badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"/>MongoDB</div>
+    <div class="badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"/>Firebase</div>
+    <div class="badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>Git</div>
+    <div class="badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>GitHub</div>
+    <div class="badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"/>Google Cloud</div>
+    <div class="badge"><img src="https://img.icons8.com/color/48/000000/power-bi.png"/>Power BI</div>
+    <div class="badge"><img src="https://img.icons8.com/color/48/000000/salesforce.png"/>Salesforce</div>
+  </div>
+
+  <h2>Featured Projects</h2>
+
+  <div class="project-card">
+    <h3>SynthData.ai</h3>
+    <p>Generates realistic synthetic data that protects privacy while maintaining structure and statistical behavior.</p>
+    <p><strong>Tech:</strong> Python, CTGANs, FastAPI, React Native</p>
+    <a href="https://github.com/bhakti-thakur/SynthData">View on GitHub</a>
+  </div>
+
+  <div class="project-card">
+    <h3>Dine-o-saur</h3>
+    <p>A group-based web app that helps friends or couples decide where to eat through an interactive, no-login experience.</p>
+    <p><strong>Tech:</strong> Next.js, Tailwind CSS, Firebase Firestore</p>
+    <a href="https://github.com/bhakti-thakur/Dine-o-saur">View on GitHub</a>
+  </div>
+
+  <div class="project-card">
+    <h3>Naukri Automator</h3>
+    <p>Automates Naukri profile updates using Puppeteer and Node.js for daily activity optimization.</p>
+    <p><strong>Tech:</strong> Node.js, Puppeteer, Express, JSON storage</p>
+    <a href="https://github.com/bhakti-thakur/naukriAutomator">View on GitHub</a>
+  </div>
+
+  <div class="project-card">
+    <h3>InsuraTrack</h3>
+    <p>Built CRM workflows to manage insurance and EMI tracking using Salesforce. Demonstrated scalable CRM design principles.</p>
+    <p><strong>Tech:</strong> Salesforce (custom objects, dashboards, automations)</p>
+    <p>Work in progress</p>
+  </div>
+
+  <h2>GitHub Stats</h2>
+  <img src="https://github-readme-stats.vercel.app/api?username=bhakti-thakur&show_icons=true&theme=transparent&hide_border=true" width="49%">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=bhakti-thakur&theme=transparent&hide_border=true" width="49%">
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhakti-thakur&layout=compact&theme=transparent&hide_border=true" width="60%">
+
+  <footer>
+    <div class="footer-icons">
+      <a href="#" title="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/></a>
+      <a href="#" title="Email"><img src="https://img.icons8.com/fluency-systems-regular/48/000000/new-post.png"/></a>
+      <a href="#" title="Resume"><img src="https://img.icons8.com/fluency-systems-regular/48/000000/open-resume.png"/></a>
+    </div>
+    <p style="font-size:0.85em;opacity:0.8;margin-top:12px;">Building systems that think clearly, so people can too.</p>
+  </footer>
 </div>
-
-<hr/>
-
-<!-- ABOUT -->
-<section>
-  <h2>👩‍💻 About Me</h2>
-  <ul>
-    <li>🎯 Entry-level <strong>Power Platform & D365 CRM Developer (0–1 yr)</strong></li>
-    <li>⚙️ Focused on real-world CRM workflows, automation, and low-code systems</li>
-    <li>🧠 Currently building <strong>SynthData.ai</strong> as my BE project</li>
-    <li>🔍 Actively seeking internships / entry-level roles</li>
-  </ul>
-</section>
-
-<hr/>
-
-<!-- TECH STACK -->
-<section id="tech">
-  <h2>🛠️ Tech Stack</h2>
-
-  <h4>Power Platform & CRM</h4>
-  <p>
-    Power Apps · Power Automate · Power BI · Dataverse ·
-    JavaScript Customizations · C# Plugins (Basics) ·
-    Salesforce (Classic & Lightning)
-  </p>
-
-  <h4>Languages</h4>
-  <p>Python · Java (Basic)</p>
-
-  <h4>Frameworks & Frontend</h4>
-  <p>MERN · React.js · Next.js · React Native</p>
-
-  <h4>Databases & Tools</h4>
-  <p>SQL · MongoDB · Git · GitHub · Firebase · Google Cloud Console</p>
-</section>
-
-<hr/>
-
-<!-- PROJECTS -->
-<section id="projects">
-  <h2>🚀 Featured Projects</h2>
-
-  <table width="100%" cellpadding="10">
-    <tr>
-      <td width="50%" valign="top">
-        <h3>🔹 <a href="#">SynthData.ai</a></h3>
-        <p>
-          Privacy-safe synthetic tabular data generation engine using GANs.
-        </p>
-        <p>
-          <strong>Tech:</strong> Python, CTGANs, GANs, FastAPI, React Native
-        </p>
-        <p><em>Status: Work in Progress</em></p>
-      </td>
-
-      <td width="50%" valign="top">
-        <h3>🔹 <a href="#">Dine-o-saur</a></h3>
-        <p>
-          Swipe-based group decision app to decide where to eat — no login.
-        </p>
-        <p>
-          <strong>Tech:</strong> Next.js, Tailwind CSS, Firebase Firestore
-        </p>
-        <p><em>Status: Work in Progress</em></p>
-      </td>
-    </tr>
-
-    <tr>
-      <td width="50%" valign="top">
-        <h3>🔹 <a href="#">Naukri Automator</a></h3>
-        <p>
-          Puppeteer automation to keep Naukri profiles active daily.
-        </p>
-        <p>
-          <strong>Tech:</strong> Node.js, Puppeteer, Express, dotenv
-        </p>
-      </td>
-
-      <td width="50%" valign="top">
-        <h3>🔹 <a href="#">InsuraTrack</a></h3>
-        <p>
-          CRM case study for insurance & EMI lifecycle tracking.
-        </p>
-        <p>
-          <strong>Tech:</strong> Salesforce, Custom Objects, Reports, Dashboards
-        </p>
-      </td>
-    </tr>
-  </table>
-</section>
-
-<hr/>
-
-<!-- STATS -->
-<section>
-  <h2>📊 GitHub Activity</h2>
-
-  <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=bhakti-thakur&show_icons=true&hide_title=true" height="160"/>
-    <img src="https://streak-stats.demolab.com?user=bhakti-thakur" height="160"/>
-  </div>
-</section>
-
-<hr/>
-
-<!-- FOOTER -->
-<section id="contact">
-  <h2>📫 Contact Me</h2>
-
-  <div align="center">
-    <a href="https://www.linkedin.com/in/bhakti-thakur/" target="_blank">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28"/>
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="mailto:tbhakti274@gmail.com">
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="28"/>
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://drive.google.com/file/d/1_pSd56a683yO2yBog7mR_zH2NoHw3Dj2/view?usp=sharing" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="28"/>
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <!-- <a href="YOUR_PORTFOLIO_LINK" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="28"/>
-    </a> -->
-  </div>
-
-  <p align="center">
-    <em>Focused on building real systems, not just flashy demos.</em>
-  </p>
-</section>
