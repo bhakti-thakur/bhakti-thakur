@@ -50,16 +50,15 @@
 
 ## 🚀 Projects
 
-### 🔹 [SynthData.ai](https://github.com/bhakti-thakur/SynthData)
+### [SynthData.ai](https://github.com/bhakti-thakur/SynthData)
 **Synthetic data generation engine for privacy-safe analytics**  
 - Generates high-quality tabular synthetic data using GANs  
 - Useful for testing ML models without exposing sensitive data  
 **Tech:** Python, CTGANs, GANs, FastAPI, React Native
-🔗 **Repo:**
 
 ---
 
-### 🔹 [Dine-o-saur](https://github.com/bhakti-thakur/Dine-o-saur)
+### [Dine-o-saur](https://github.com/bhakti-thakur/Dine-o-saur)
 **Group-based decision-making app for choosing where to eat**  
 - Swipe-based experience inspired by Tinder & Spotify onboarding  
 - No login, mobile-first, frictionless UX  
@@ -67,7 +66,7 @@
 
 ---
 
-### 🔹 [Naukri Automator](https://github.com/bhakti-thakur/naukriAutomator)
+### [Naukri Automator](https://github.com/bhakti-thakur/naukriAutomator)
 **Automation to keep Naukri profile active**  
 - Daily profile update via Puppeteer automation  
 - Simple but effective visibility hack  
@@ -75,7 +74,7 @@
 
 ---
 
-### 🔹 InsuraTrack *(CRM Case Study)*
+### InsuraTrack *(CRM Case Study)*
 **End-to-end CRM modeling for insurance & EMI tracking**  
 - Designed custom objects and relationships  
 - Built reports, dashboards, and workflow rules  
@@ -88,8 +87,15 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=bhakti-thakur&show_icons=true&theme=default" height="160"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bhakti-thakur&theme=default" height="160"/>
+<img
+  src="https://github-readme-stats.vercel.app/api?username=bhakti-thakur&show_icons=true&hide_title=true"
+  height="160"
+/>
+
+<img
+  src="https://streak-stats.demolab.com?user=bhakti-thakur"
+  height="160"
+/>
 
 </div>
 
